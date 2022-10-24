@@ -96,3 +96,20 @@ body{
     filter: blur(2px);
     box-shadow: 0 0 120px #fff;
 }
+
+@media (max-width: 46.1875em) {
+    .box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .box div span {
+        transform: rotateY(calc(90deg * var(--i))) translateZ(125px);
+    }
+
+    .box div.top{
+        position: absolute;
+        top: -125px;
+    }
+
+}
