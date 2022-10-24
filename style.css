@@ -69,7 +69,7 @@ body{
 .box div span img{
     width: 100%;
     object-fit: cover;
-    object-position: top center;
+    object-position: center;
     padding: 6px;
 }
 .box div.top{
@@ -78,7 +78,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('./assets/img/310691995_2020852371438214_179292782145163899_n.jpg');
+    background-image: url('./assets/img/img7.jpg');
     background-position: center top;
     background-size: cover;
     transform: rotateZ(85deg) rotateY(90deg) rotateX(-5deg); 
@@ -89,7 +89,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('./assets/img/310691995_2020852371438214_179292782145163899_n.jpg');
+    background-image: url('./assets/img/img7.jpg');
     background-position: center top;
     background-size: cover;
     transform: rotateZ(85deg) rotateY(90deg) rotateX(-5deg); 
@@ -110,6 +110,10 @@ body{
     .box div.top{
         position: absolute;
         top: -125px;
+    }
+
+    .box :hover span{
+        transform:  rotateY(calc(90deg * var(--i))) translateZ(165px);
     }
 
 }
